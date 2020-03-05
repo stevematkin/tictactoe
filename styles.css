@@ -1,14 +1,19 @@
+body {
+    text-align: center;
+}
+
 .board {
     display: flex;
     width: 40%;
     flex-wrap: wrap;
     min-width: 450px;
     max-width: 500px;
-        
+    margin: auto;   
 }
 
 .container {
     display: flex;
+    flex-direction: column;
 }
 
 .board-grid {
@@ -34,4 +39,12 @@
     top: 0;
     right: 0;
     bottom: 0;
+}
+
+.reset-button {
+
+}
+
+.text-display {
+    
 }
